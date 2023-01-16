@@ -1,5 +1,9 @@
 @media only screen and (max-width: 576px) {
 /* header & menu part css */
+
+body{
+    overflow: -moz-hidden-unscrollable;
+}
  #main-header
 {
     width:100%;
@@ -310,14 +314,12 @@ margin-bottom: 50px;
     text-align:center;
     margin-top: 80px;
 }
-
 .sponsor-icons-4{
     display: grid;
     grid-template-columns: auto;
     margin-top:40px;
     margin-left:-280px; 
     padding-top: 10px;
-   
 }
 .sponsor-heading h3{
 font-style: normal;
@@ -334,29 +336,27 @@ line-height: 13px;
 margin-top: -30px;
 margin-bottom: 35px;
 margin-left:-300px;
-
 }
 
 /* extra part start here */
 /*contact start here*/
 .contact {
-     width:300px;
+     width:100%;
     text-align: center;
     margin-top:70px;
-    margin-left:-500px;
+    /* margin-left:-530px; */
+    margin-left: 0px;
     background-color: #FFF4E7;
 
 }
-
 .contact h2 {
     font-size: 40px;
     color: #000;
     margin-top: 70px;
     display: inline-block;
     text-align: center;
-    
+   
 }
-
 .contact p {
     font-size: 18px;
     color: #36383b;
@@ -417,7 +417,6 @@ margin-left:-300px;
     text-transform: uppercase;
 
 }
-
 .contact form button:hover {
     background: #FF900E;
     color: #36383b;
@@ -455,10 +454,10 @@ footer span h4 {
 /* extra part start here */
 /*contact start here*/
 .contact {
-    width: 1050px;
+    max-width: 100%;
     text-align: center;
     margin-top:70px;
-    margin-left:150px;
+    margin-left: 0px;
     background-color: #FFF4E7;
     
 
@@ -480,53 +479,53 @@ footer span h4 {
 }
 
 .contact form input[type='text'] {
-    width: 400px;
-    height: 50px;
+    width: 100px;
+    height: 30px;
     margin: 40px 10px 15px 10px;
     border: 2px solid #FF900E;
-    font-size: 160%;
+    font-size: 16px;
     color: #4d4e51;
     border-radius: 8px;
 
 }
 .contact form .subject input[type='text'] {
-    width: 850px;
-    height: 50px;
+    width: 235px;
+    height: 30px;
     margin: 15px 10px;
     border: 2px solid #FF900E;
-    font-size: 160%;
+    font-size: 16px;
     color: #4d4e51;
     border-radius: 8px;
 
 }
 .contact form input[type='email'] {
-    width: 425px;
-    height: 50px;
+    width: 100px;
+    height: 30px;
     margin: 40px 10px 15px 10px;
     border: 2px solid #FF900E;
-    font-size: 160%;
+    font-size: 16px;
     color: #4d4e51;
     border-radius: 8px;
 
 }
 .contact form textarea {
-    width: 850px;
-    height: 150px;
+    width: 235px;
+    height: 100px;
     margin: 15px 40px;
     border: 2px solid #FF900E;
-    font-size: 160%;
+    font-size: 16px;
     color: #4d4e51;
     border-radius: 8px;
 }
 
 .contact form button {
-    width: 330px;
-    height: 70px;
-    margin-left: 50px;
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
     margin-top: 10px;
     text-align: center;
     color: #36383b;
-    font-size: 40px;
+    font-size: 16px;
     background: #fff;
     border: 1px solid #FF900E;
     border-radius: 50px;
@@ -548,10 +547,10 @@ footer span h4 {
 /*footer start here*/
 footer {
     background: #FFF4E7;
-    width: 1050px;
+    width: 100%;
     height: 80px;
-    margin-left:150px;
-    text-align: center;
+    margin-left: 0px;
+  
     
 }
 footer span {
